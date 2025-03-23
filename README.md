@@ -1,4 +1,4 @@
-# **Automated Docker Image Build & Push with Jenkins** 🚀
+# **Automated Docker Image Build & Push with Jenkins** 
 
 ## **Project Overview**
 This project sets up a **Jenkins CI/CD pipeline** to **automate the building and pushing of Docker images** to Docker Hub.
@@ -42,18 +42,18 @@ sudo systemctl restart docker
 
   2. To solve that you have create an **API** key in <b>TMBD</b>
 ---
-### 🔹 Step-by-Step Guide
+###  Step-by-Step Guide
 
-#### **1️⃣ Sign Up or Log In**
+#### **1 Sign Up or Log In**
 1. Go to **[TMDB Website](https://www.themoviedb.org/)**.
 2. Click on **Sign Up** (if you don’t have an account) or **Log In**.
 
-#### **2️⃣ Navigate to API Section**
+#### **2 Navigate to API Section**
 1. After logging in, click on your **profile icon** (top-right corner).
 2. Select **Settings** from the dropdown.
 3. In the left sidebar, click on **API**.
 
-#### **3️⃣ Request an API Key**
+#### **3 Request an API Key**
 1. Click on **Create API Key**.
 2. Select the **purpose**:
    - Personal project
@@ -64,7 +64,7 @@ sudo systemctl restart docker
 4. Accept the terms and conditions.
 5. Click **Submit**.
 
-#### **4️⃣ Get Your API Key**
+#### **4 Get Your API Key**
 - Once approved, your **API Key (v3 auth)** will be displayed.
   Now you can build your docker image by using follwing command
 
@@ -110,7 +110,7 @@ docker image build -t --build-arg  TMDB_V3_API_KEY=80be8bf15c0abc1246b10cfc43b9e
 8. Wait for the installation to complete.
 9. Restart Jenkins if required.
 
-🚀 Now, Jenkins is ready for Docker build and push operations! 🎯
+ Now, Jenkins is ready for Docker build and push operations! 
 
 ## **Step 5 : Add and docker tool 
  1. Open **Jenkins Dashboard**.
